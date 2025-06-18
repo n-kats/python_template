@@ -1,6 +1,6 @@
 # 使い方
 ``` bash
-$ pipx run cookiecutter git@github.com:n-kats/cline_template.git
+$ pipx run cookiecutter git@github.com:n-kats/python_template.git
 # 質問に答える
 
 $ cd <project_slug>
@@ -22,7 +22,7 @@ default_context:
 `cookiecutter` コマンドを実行する際に `--config-file` オプションを指定してください。
 
 ``` bash
-pipx run cookiecutter git@github.com:n-kats/cline_template.git --config-file ~/.cookiecutterrc_work
+pipx run cookiecutter git@github.com:n-kats/python_template.git --config-file ~/.cookiecutterrc_work
 ```
 
 
