@@ -21,7 +21,7 @@ requires = ["hatchling", "uv-dynamic-versioning"]
 build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
-packages = ["{{cookiecutter.package_name}}"]
+packages = ["src/{{cookiecutter.package_name}}"]
 
 [tool.hatch.version]
 source = "uv-dynamic-versioning"
